@@ -10,6 +10,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class ProdutosController {
 
+    private List<Produto> produtos = new ArrayList<>();
+    public ProdutosController(){
+        
+    }
+
     @GetMapping
     public List<Produto> getAll(){
 
