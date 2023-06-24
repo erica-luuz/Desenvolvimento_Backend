@@ -1,14 +1,14 @@
-package models;
+package Model;
 
 public class Produto {
-    private int codigoDeBarras;
+    private  int codigoDeBarras;
     private String nome;
-    private boolean preco;
+    private double preco;
 
     public Produto() {
     }
 
-    public Produto(int codigoDeBarras, String nome, boolean preco) {
+    public Produto(int codigoDeBarras, String nome, double preco) {
         this.codigoDeBarras = codigoDeBarras;
         this.nome = nome;
         this.preco = preco;
@@ -30,11 +30,11 @@ public class Produto {
         this.nome = nome;
     }
 
-    public boolean isPreco() {
+    public double getPreco() {
         return preco;
     }
 
-    public void setPreco(boolean preco) {
+    public void setPreco(double preco) {
         this.preco = preco;
     }
 }

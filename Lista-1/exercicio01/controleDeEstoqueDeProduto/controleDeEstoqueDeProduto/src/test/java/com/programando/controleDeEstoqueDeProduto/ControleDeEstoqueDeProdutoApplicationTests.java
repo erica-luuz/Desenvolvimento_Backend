@@ -1,10 +1,10 @@
-package com.programando.controleDeEstoqueDeProdutos;
+package com.programando.controleDeEstoqueDeProduto;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ControleDeEstoqueDeProdutosApplicationTests {
+class ControleDeEstoqueDeProdutoApplicationTests {
 
 	@Test
 	void contextLoads() {
